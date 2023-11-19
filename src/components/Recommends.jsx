@@ -22,7 +22,7 @@ const Recommends = () => {
                   <small className="text-[#c6757d]">{item.dec}</small>
                 </div>
               </div>
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center pt-3">
                 <h6 className="pt-2">${item.price}</h6>
                 <button className="bg-[#00754A] rounded-full px-3 py-1 text-white">
                   Add Item
