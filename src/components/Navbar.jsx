@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <>
       <div className="w-full px-4 h-[72px] flex justify-between items-center">
-        <div>
+        <div className="z-50">
           <Link to="/">
             <img src={logo} alt="logo" className="w-[40px] h-[40px]" />
           </Link>
