@@ -13,7 +13,7 @@ import banner3 from "../assets/Diwali_blend_banner_Icon_91e27d5cc3.png";
 
 const Slide = () => {
   return (
-    <div>
+    <div className="max-w-[1280px] mx-auto">
       <Swiper
         modules={[Navigation, Pagination, A11y]}
         spaceBetween={50}

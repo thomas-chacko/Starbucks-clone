@@ -3,7 +3,7 @@ import { recommends } from "../data/data";
 const Recommends = () => {
   return (
     <div>
-      <div className="w-full py-3 bg-[#edebe9] my-5">
+      <div className="w-full py-3 bg-[#edebe9] my-5 lg:px-28">
         <div className="flex justify-between items-center px-2 py-2 md:px-16 md:py-3">
           <h3 className="font-bold">Barista Recommends</h3>
           <h6 className="text-[#00754A]">View Menu</h6>

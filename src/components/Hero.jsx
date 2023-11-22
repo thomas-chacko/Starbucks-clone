@@ -2,8 +2,8 @@ import { data } from "../data/data";
 
 const Hero = () => {
   return (
-    <>
-      <h3 className=" mt-4 p-2 font-bold">Handcrafted Curations</h3>
+    <section className="max-w-[1296px] mx-auto">
+      <h3 className=" mt-4 font-bold">Handcrafted Curations</h3>
       <div className="w-full mx-auto flex justify-between flex-wrap">
         {data.map((item) => (
           <div className="w-[108px] h-[158px] p-2">
@@ -16,7 +16,7 @@ const Hero = () => {
           </div>
         ))}
       </div>
-    </>
+    </section>
   );
 };
 export default Hero;

@@ -1,7 +1,7 @@
 import { letestOffers } from "../data/data";
 const LetestOffer = () => {
   return (
-    <>
+    <section className="max-w-[1296px] mx-auto">
       <h2 className="mt-4 p-2 font-bold">Latest Offering</h2>
       <div className="p-1 gap-5 grid grid-cols-1 md:gridcol lg:grid-cols-3 place-items-center">
         {letestOffers.map((item) => (
@@ -24,7 +24,7 @@ const LetestOffer = () => {
           </div>
         ))}
       </div>
-    </>
+    </section>
   );
 };
 export default LetestOffer;

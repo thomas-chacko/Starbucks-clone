@@ -3,9 +3,9 @@ import coffee from "../assets/coffee_culture_blog_web1_c6e691b286.jpg";
 const LearnMore = () => {
   return (
     <div className="w-full bg-[#edebe9] my-5 py-4 lg:p-5">
-      <div className="flex justify-between lg:px-5 items-center">
-        <h4 className="p-2">Learn more about the world of coffee!</h4>
-        <h6 className="hidden lg:flex text-[#00754A]">Discover More</h6>
+      <div className="flex flex-wrap justify-between lg:px-5 items-center">
+        <h4 className="p-2 font-bold">Learn more about the world of coffee!</h4>
+        <h5 className="text-[#00754A]">Discover More</h5>
       </div>
       <div className="px-2 lg:px-10">
         <img

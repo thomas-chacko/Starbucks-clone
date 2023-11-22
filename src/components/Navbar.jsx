@@ -10,7 +10,7 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <>
+    <header className="max-w-[1296px] mx-auto">
       <div className="w-full px-4 h-[72px] flex justify-between items-center">
         <div className="z-50">
           <Link to="/">
@@ -102,7 +102,7 @@ const Navbar = () => {
           Store
         </NavLink>
       </div>
-    </>
+    </header>
   );
 };
 export default Navbar;
