@@ -9,8 +9,8 @@ import offer1 from "../assets/102257.webp";
 import offer2 from "../assets/114211_1.webp";
 import offer3 from "../assets/114215_1.webp";
 
-import Recommends1 from '../assets/112570.webp'
-import Recommends2 from '../assets/112573.webp'
+import Recommends1 from "../assets/112570.webp";
+import Recommends2 from "../assets/112573.webp";
 
 export const data = [
   { id: 1, name: "Bestseller", image: bestseller },
@@ -49,15 +49,33 @@ export const recommends = [
   {
     id: 1,
     name: "Strawberry Milkshake",
-    price: 367.50,
+    price: 367.5,
     dec: "TALL(tall strawberry milkshakes) PRE SERVE (354ml) - 549kcal",
-    image:Recommends1
+    image: Recommends1,
   },
   {
     id: 2,
     name: "Vanilla Milkshake",
-    price: 350.50,
+    price: 350.5,
     dec: "TALL(354ml).PRE SERVE(354ml) - 531kcal",
-    image:Recommends2
+    image: Recommends2,
+  },
+];
+
+export const giftCard = [
+  {
+    id: 1,
+    title: "India Exclusive",
+    dec: "Bring in the festive season and make each celebration memorable.",
+  },
+  {
+    id: 2,
+    title: "Starbucks Coffee",
+    dec: "Starbucks is best when shared. Treat your pals to a good cup of coffee.",
+  },
+  {
+    id: 3,
+    title: "U Keep Me Warm",
+    dec: "Captivating, cosy, coffee. Gift your loved ones this Starbucks Gift Card.",
   },
 ];
